@@ -1,4 +1,5 @@
 import React from 'react'
+import DiffList from './components/diffDemoList'
 
 const App = () => {
   
@@ -8,7 +9,7 @@ const App = () => {
         Hello world!
       </h1>
       
-      {/* Root Component will come here */}
+      <DiffList />
     </div>
   )
 }
